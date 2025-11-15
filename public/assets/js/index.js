@@ -2,6 +2,7 @@ const carouselSlide = document.querySelector(".carousel");
 const carouselIndicators = document.querySelector(".carousel-indicators");
 const carouselInner = document.querySelector(".carousel-inner");
 const cardsGrid = document.querySelector(".livros-grid");
+const grafico = document.getElementById('grafico-barras');
 
 function popularCarousel() {
     if (!carouselSlide || !carouselIndicators || !carouselInner) return;
@@ -76,10 +77,58 @@ function popularCards() {
     });
 }
 
+function popularGraficoBarras() {
+    if (!grafico) return;
+
+    new Chart(grafico, {
+        type: 'bar',
+        plugins: [ChartDataLabels],
+        data: {
+            labels: livros.map(livro => livro.titulo),
+            datasets: [{
+                label: "Número de Páginas",
+                data: livros.map(livro => livro.paginas),
+                backgroundColor: livros.map(livro => livro.cor_capa || 'rgba(54, 162, 235, 0.2)'),
+                borderWidth: 0,
+                borderRadius: 6
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                title: { display: false },
+                datalabels: {
+                    color: "#000",
+                    anchor: "end",
+                    align: "end",
+                    font: {
+                        weight: "bold",
+                        size: 14
+                    },
+                    formatter: (value) => `${value}`
+                }
+            },
+            scales: {
+                y: {
+                    display: false,
+                    grid: { display: false }
+                },
+                x: {
+                    grid: { display: false },
+                    ticks: { color: "#333", font: { size: 14 } }
+                }
+            }
+        }
+    });
+}
+
 document.addEventListener("DOMContentLoaded", async () => {
     await carregarLivros();
     popularCarousel();
     popularCards();
+    popularGraficoBarras();
 });
 
 cardsGrid.addEventListener("click", async (event) => {

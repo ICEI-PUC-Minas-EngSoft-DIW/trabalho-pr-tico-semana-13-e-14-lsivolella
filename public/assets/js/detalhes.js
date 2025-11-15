@@ -2,6 +2,7 @@ const detalhesLivro = document.querySelector(".detalhes-livro-container");
 const secundarioContainer = document.querySelector("#secundario-container");
 const btn_editar = document.querySelector("#btn-editar");
 const btn_excluir = document.querySelector("#btn-excluir");
+const grafico = document.getElementById('grafico-pizza');
 
 function armazenarReferenciaLivro() {
     const params = new URLSearchParams(window.location.search);
@@ -9,7 +10,7 @@ function armazenarReferenciaLivro() {
     return livro = livros.find(l => l.id === bookId);
 }
 
-function popularDetalhesLivro() {
+function popularDetalhesLivro(livro) {
     if (!detalhesLivro) return;
 
     if (!livro) {
@@ -41,7 +42,7 @@ function popularDetalhesLivro() {
     });
 }
 
-function popularIlustracoes() {
+function popularIlustracoes(livro) {
     if (!livro || !secundarioContainer) return;
 
     // Ilustrações
@@ -90,11 +91,55 @@ function popularIlustracoes() {
     }
 }
 
+function popularGraficoPizza(livro) {
+    if (!grafico) return;
+
+    let categorias = livro.pov.map(p => p.personagem);
+    let valoresPorCategoria = livro.pov.map(p => p.capitulos);
+    let cores = [
+        "#134074", "#0B2545", "#8DA9C4", "#EEF4ED", "#3D5A80",
+        "#98C1D9", "#E0FBFC", "#293241", "#EE6C4D", "#9A031E"
+    ].slice(0, categorias.length);
+
+    const divPieChart = new Chart(grafico, {
+        type: 'pie',
+        data: {
+            labels: categorias,
+            datasets: [{
+                data: valoresPorCategoria,
+                backgroundColor: cores,
+                borderColor: "#fff",
+                borderWidth: 3
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+
+            plugins: {
+                legend: {
+                    position: "bottom",
+                    labels: {
+                        color: "#333",
+                        font: { size: 14 }
+                    }
+                },
+                datalabels: {
+                    color: "#fff",
+                    formatter: value => value,
+                    font: { weight: "bold", size: 14 }
+                }
+            }
+        }
+    });
+}
+
 document.addEventListener("DOMContentLoaded", async () => {
     await carregarLivros();
     const livro = armazenarReferenciaLivro();
     popularDetalhesLivro(livro);
     popularIlustracoes(livro);
+    popularGraficoPizza(livro);
 
     if (btn_editar && livro) {
         btn_editar.href = `/assets/html/cadastro_livros.html?id=${livro.id}`;

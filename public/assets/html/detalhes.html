@@ -8,6 +8,8 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="/assets/css/detalhes.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
     <title>Detalhes</title>
 </head>
 
@@ -28,6 +30,14 @@
                 <button class="btn btn-danger" id="btn-excluir">Excluir</button>
             </div>
         </section>
+
+        <section id="grafico-container">
+            <h1 class="titulo-secao">Capítulos</h1>
+            <div id="grafico-div">
+                <canvas id="grafico-pizza"></canvas>
+            </div>
+        </section>
+
         <section id="secundario-container">
             <h1 class="titulo-secao">Ilustrações</h1>
         </section>

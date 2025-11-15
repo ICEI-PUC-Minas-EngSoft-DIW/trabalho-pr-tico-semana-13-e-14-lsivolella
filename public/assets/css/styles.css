@@ -55,3 +55,9 @@ main {
 .text-h4 {
     color: #4b85f1;
 }
+
+#grafico-div {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+}
