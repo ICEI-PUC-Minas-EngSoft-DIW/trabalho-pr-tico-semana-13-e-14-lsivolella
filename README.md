@@ -9,15 +9,18 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Lucas Sivolella
+- Matricula: 902408
+- Proposta de projeto escolhida: Pessoas e Produções
+- Breve descrição sobre seu projeto: Site feito com as linguaguens HTML e CSS e com o auxílio da biblioteca Bootstrap. Capaz de realizar o carregamento dinâmico de informações através da biblioteca JQuery e JsonServer. Possui suporte a apresentação dinâmica de dados com auxílio da biblioteca Chart.js
 
 **Print da tela com a implementação**
 
-<< Coloque aqui uma breve explicação da implementação feita nessa etapa>>
+Foi implementado um gráfico de barras na página index com a distriuição do número de páginas por livro.
+Já na página detalhes foi incluído um gráfico de pizza indicando a quantidade de capítulos para cada personagem "ponto de vista" no livro.
 
-<<  COLOQUE A IMAGEM TELA 1 AQUI >>
+**Gráfico de Barras**
+![Gráfico de Barras - Index](/public/assets/img/Prints/barras_index.png)
 
-<<  COLOQUE A IMAGEM TELA 2 AQUI >>
+**Gráfico de Pizza**
+![Gráfico de Pizza - Detalhes](/public/assets/img/Prints/pizza_detalhes.png)
