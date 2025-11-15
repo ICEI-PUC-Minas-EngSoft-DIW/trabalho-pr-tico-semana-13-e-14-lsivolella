@@ -1,0 +1,18 @@
+#cadastro-container {
+  margin: 20px;
+}
+
+#livro-form {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#livro-form .form-label {
+  font-weight: bold;
+}
+
+#livro-form button {
+  min-width: 120px;
+}
