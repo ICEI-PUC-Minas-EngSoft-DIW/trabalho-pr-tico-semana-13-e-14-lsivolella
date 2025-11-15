@@ -74,7 +74,8 @@
           "url": "/assets/img/asoiaf_1-throne.jpg",
           "descricao": "The Iron Throne"
         }
-      ]
+      ],
+      "cor_capa": "#0f2847"
     },
     {
       "id": 2,
@@ -154,7 +155,8 @@
           "url": "/assets/img/asoiaf_2-renly-brienne.jpg",
           "descricao": "Renly dies on Brienne's arms"
         }
-      ]
+      ],
+      "cor_capa": "#c9a341"
     },
     {
       "id": 3,
@@ -228,7 +230,8 @@
           "url": "/assets/img/asoiaf_3-jon-ygritte.jpg",
           "descricao": "Jon and Ygritte in the caverns"
         }
-      ]
+      ],
+      "cor_capa": "#125c32"
     },
     {
       "id": 4,
@@ -306,7 +309,8 @@
           "url": "/assets/img/asoiaf_4-victarion.jpg",
           "descricao": "Victarion Greyjoy leaps onto a ship"
         }
-      ]
+      ],
+      "cor_capa": "#7b0d0d"
     },
     {
       "id": 5,
@@ -371,7 +375,8 @@
           "url": "/assets/img/asoiaf_5-jon.jpg",
           "descricao": "The First Commander, Jon Snow"
         }
-      ]
+      ],
+      "cor_capa": "#8e8e8e"
     }
   ]
 }
