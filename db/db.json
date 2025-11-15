@@ -9,6 +9,40 @@
       "imagem": "/assets/img/asoiaf_1.jpg",
       "paginas": 694,
       "descricao": "The story begins in the Seven Kingdoms of Westeros, a land where summers last decades and winters can last a lifetime.Noble families vie for control of the Iron Throne as political intrigue, betrayal, and war tear the realm apart.Meanwhile, far to the north, an ancient threat awakens beyond the Wall.",
+      "pov": [
+        {
+          "personagem": "Eddard Stark",
+          "capitulos": 15
+        },
+        {
+          "personagem": "Catelyn Stark",
+          "capitulos": 11
+        },
+        {
+          "personagem": "Jon Snow",
+          "capitulos": 9
+        },
+        {
+          "personagem": "Bran Stark",
+          "capitulos": 7
+        },
+        {
+          "personagem": "Daenerys Targaryen",
+          "capitulos": 10
+        },
+        {
+          "personagem": "Arya Stark",
+          "capitulos": 5
+        },
+        {
+          "personagem": "Tyrion Lannister",
+          "capitulos": 9
+        },
+        {
+          "personagem": "Sansa Stark",
+          "capitulos": 6
+        }
+      ],
       "ilustracoes": [
         {
           "id": 1,
@@ -51,6 +85,44 @@
       "imagem": "/assets/img/asoiaf_2.jpg",
       "paginas": 768,
       "descricao": "The Seven Kingdoms erupt into civil war after the death of King Robert Baratheon. Multiple kings rise to claim the Iron Throne, each convinced of their right to rule. Amid the chaos, alliances shift, betrayals multiply, and strange omens hint at darker forces gathering beyond human control.",
+      "pov": [
+        {
+          "personagem": "Tyrion Lannister",
+          "capitulos": 15
+        },
+        {
+          "personagem": "Jon Snow",
+          "capitulos": 8
+        },
+        {
+          "personagem": "Daenerys Targaryen",
+          "capitulos": 5
+        },
+        {
+          "personagem": "Arya Stark",
+          "capitulos": 10
+        },
+        {
+          "personagem": "Sansa Stark",
+          "capitulos": 8
+        },
+        {
+          "personagem": "Bran Stark",
+          "capitulos": 7
+        },
+        {
+          "personagem": "Davos Seaworth",
+          "capitulos": 3
+        },
+        {
+          "personagem": "Theon Greyjoy",
+          "capitulos": 6
+        },
+        {
+          "personagem": "Catelyn Stark",
+          "capitulos": 7
+        }
+      ],
       "ilustracoes": [
         {
           "id": 1,
@@ -93,6 +165,48 @@
       "imagem": "/assets/img/asoiaf_3.jpg",
       "paginas": 973,
       "descricao": "The war for the Iron Throne reaches its bloody peak. Unexpected betrayals reshape the political landscape — none more shocking than the infamous Red Wedding. Beyond the Wall, the Night’s Watch faces the growing power of the wildlings and the mysterious White Walkers.",
+      "pov": [
+        {
+          "personagem": "Jaime Lannister",
+          "capitulos": 7
+        },
+        {
+          "personagem": "Jon Snow",
+          "capitulos": 13
+        },
+        {
+          "personagem": "Tyrion Lannister",
+          "capitulos": 13
+        },
+        {
+          "personagem": "Arya Stark",
+          "capitulos": 13
+        },
+        {
+          "personagem": "Sansa Stark",
+          "capitulos": 7
+        },
+        {
+          "personagem": "Samwell Tarly",
+          "capitulos": 5
+        },
+        {
+          "personagem": "Bran Stark",
+          "capitulos": 4
+        },
+        {
+          "personagem": "Davos Seaworth",
+          "capitulos": 4
+        },
+        {
+          "personagem": "Catelyn Stark",
+          "capitulos": 7
+        },
+        {
+          "personagem": "Daenerys Targaryen",
+          "capitulos": 6
+        }
+      ],
       "ilustracoes": [
         {
           "id": 1,
@@ -125,6 +239,52 @@
       "imagem": "/assets/img/asoiaf_4.jpg",
       "paginas": 753,
       "descricao": "The wars have taken their toll, leaving the realm fractured and exhausted. As the great houses lick their wounds, new power struggles emerge. In the capital, intrigue and manipulation rule, while in the Riverlands and Dorne, old grudges spark new conflicts.",
+      "pov": [
+        {
+          "personagem": "Cersei Lannister",
+          "capitulos": 10
+        },
+        {
+          "personagem": "Brienne of Tarth",
+          "capitulos": 7
+        },
+        {
+          "personagem": "Arya Stark",
+          "capitulos": 3
+        },
+        {
+          "personagem": "Sansa Stark",
+          "capitulos": 3
+        },
+        {
+          "personagem": "Samwell Tarly",
+          "capitulos": 5
+        },
+        {
+          "personagem": "Jaime Lannister",
+          "capitulos": 7
+        },
+        {
+          "personagem": "Aeron Greyjoy",
+          "capitulos": 2
+        },
+        {
+          "personagem": "Asha Greyjoy",
+          "capitulos": 1
+        },
+        {
+          "personagem": "Victarion Greyjoy",
+          "capitulos": 2
+        },
+        {
+          "personagem": "Areo Hotah",
+          "capitulos": 1
+        },
+        {
+          "personagem": "Arianne Martell",
+          "capitulos": 2
+        }
+      ],
       "ilustracoes": [
         {
           "id": 1,
@@ -157,6 +317,44 @@
       "imagem": "/assets/img/asoiaf_5.jpg",
       "paginas": 1016,
       "descricao": "As Westeros struggles to recover from war, new leaders rise in the chaos. Jon Snow commands the Night’s Watch and faces impossible choices, Tyrion Lannister flees across the Narrow Sea, and Daenerys Targaryen fights to maintain control of her fragile empire — even as dragons grow stronger and winter draws near.",
+      "pov": [
+        {
+          "personagem": "Tyrion Lannister",
+          "capitulos": 12
+        },
+        {
+          "personagem": "Jon Snow",
+          "capitulos": 13
+        },
+        {
+          "personagem": "Daenerys Targaryen",
+          "capitulos": 10
+        },
+        {
+          "personagem": "Bran Stark",
+          "capitulos": 3
+        },
+        {
+          "personagem": "Victarion Greyjoy",
+          "capitulos": 2
+        },
+        {
+          "personagem": "Theon Greyjoy",
+          "capitulos": 7
+        },
+        {
+          "personagem": "Davos Seaworth",
+          "capitulos": 4
+        },
+        {
+          "personagem": "Quentyn Martell",
+          "capitulos": 3
+        },
+        {
+          "personagem": "Barristan Selmy",
+          "capitulos": 4
+        }
+      ],
       "ilustracoes": [
         {
           "id": 1,
